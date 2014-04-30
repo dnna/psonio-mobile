@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Psonio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/psonio.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv-printshiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <div class="container main-container">
+        <div class="row-fluid">
+            <div class="span12 text-align-center">
+                <h1 class="logo"><a href="/"><img src="images/psonio.png" /></a></h1>
+                        
+
+
+
+                    <form action="http://psonio.dnna.gr/search" method="GET">
+        <div class="form-group"><label class="control-label required" for="search_product">Προϊόν</label><input type="text" id="search_product" name="search[product]" required="required"    class="product-typeahead form-control" autocomplete="off" ></div>
+        <div class="form-group"><label class="control-label" for="search_area">Περιοχή</label><input type="text" id="search_area" name="search[area]"    class="area-typeahead form-control" autocomplete="off" ></div>
+        <button type="submit" id="search_search" name="search[search]"    class="btn-lg btn-block btn btn-primary">Αναζήτηση</button>
+    </form>
+    <a href="http://psonio.dnna.gr/how_it_works" class="how-it-works">Πώς λειτουργεί</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all JavaScripts, compiled by Assetic -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap3-typeahead.js"></script>
+    <script src="js/frontpage.js"></script>
+</body>
+</html>
