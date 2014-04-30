@@ -24,7 +24,7 @@
 
 	<icon src="images/psonio.png" gap:role="default" />
 
-    <gap:splash src="images/psonio.png" />
+    <gap:splash src="images/psonio_splash.jpg" />
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
 	<!-- sample preference specification -->
